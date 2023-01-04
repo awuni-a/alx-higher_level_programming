@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-""" LockedClass
-"""
+"""Module for LockedClass"""
 
 
 class LockedClass:
-    __slots__= ['first_name']
+    """A locked class that only lets the user create the instance
+    attribute 'first_name'"""
+    __slots__ = ['first_name']
